@@ -1,0 +1,50 @@
+/* RESET CSS */
+*{
+    margin: 0; padding: 0;
+}
+
+/* NAV */
+nav{
+    background-color: darkgray;    
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+nav ul li:hover{
+    background-color: gray;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.main{
+    padding: 0 10px;
+    text-align: center;
+}
+
+.main h1{
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 850px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul{
+        display: flex;
+    }
+}
