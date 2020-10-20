@@ -1,0 +1,37 @@
+/* NAV */
+nav{
+    margin: 0 auto;
+    background-color: darkgray;
+    max-width: 1024px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+nav ul li:hover{
+    transition: 0.5s;
+    background-color: gray;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 850px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul{
+        display: flex;
+    }
+}

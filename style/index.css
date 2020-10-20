@@ -1,50 +1,43 @@
+@import url("nav.css");
+@import url("footer.css");
+
 /* RESET CSS */
 *{
     margin: 0; padding: 0;
-}
-
-/* NAV */
-nav{
-    background-color: darkgray;    
-}
-
-nav ul{
-    list-style: none;
-    text-align: center;
-}
-
-nav ul li{
-    padding: 10px;
-}
-
-nav ul li:hover{
-    background-color: gray;
-}
-
-nav ul a{
-    color: white;
-    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-.main{
+/* APRESENTAÇÃO */
+.apresentacao{
     padding: 0 10px;
     text-align: center;
 }
 
-.main h1{
-    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+.apresentacao h1{
+    font-size: 2.5em;
+    margin: 20px auto;
 }
 
+.apresentacao img{
+    border-style: ridge;
+    border-radius: 50%;
+    width: 90%;
+}
 
-/* MEDIA QUERIES */
-@media (min-width: 850px) {
-    nav{
-        display: flex;
-        justify-content: space-between;
-    }
+/* SOBRE */
+.sobre{
+    padding: 0 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
-    nav ul{
-        display: flex;
+.sobre p{
+    padding: 10px;
+}
+
+@media (min-width: 340px){
+    .apresentacao img{
+        width: 300px;
     }
 }
