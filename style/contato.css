@@ -1,0 +1,58 @@
+@import url("nav.css");
+@import url("footer.css");
+
+/* RESET CSS */
+*{
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* DIV DE CONTATO */
+.contato{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.contato .img-principal img{
+    width: 60%;
+    border-radius: 2%;
+}
+
+.contato h2{
+    margin-top: 10px;
+}
+
+.contato p{
+    margin-top: 20px;
+}
+
+.badges a{
+    margin: 5px;
+}
+
+.badges img{
+    width: 90px;
+    height: 28px;
+}
+
+@media (min-width: 340px){
+    .contato .img-principal img{
+        width: 200px;
+    }
+}
+
+@media (min-width: 850px){
+    .contato{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato{
+        text-align: left;
+    }
+
+    .contato .conteudo{
+        margin-left: 30px;
+    }
+}

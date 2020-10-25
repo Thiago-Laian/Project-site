@@ -1,28 +1,25 @@
 footer{
     border-top: 1px solid rgb(150, 150, 150);
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 10px 0;
-    
+    text-align: center;
 }
 
 footer a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
     opacity: 0.5;
 }
 
 footer a img{
-    width: 20px;
-    margin-right: 5px;
+    width: 15px;
 }
 
-footer a p{
+footer a span{
     color: black;
 }
 
 footer a:hover{
     transition: 0.5s;
     opacity: 1;
+    text-decoration: underline;
 }
